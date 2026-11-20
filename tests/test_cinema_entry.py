@@ -1,7 +1,7 @@
 import pytest
 
 from src.cinema_entry import can_watch
-#demo
+#demo2
 def test_age_16_returns_true():
     age = 16 # Arrange
     result = can_watch(age) # Act
