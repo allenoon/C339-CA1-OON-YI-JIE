@@ -31,3 +31,4 @@ def test_negative_ticket_count_raises_value_error():
 def test_invalid_data_type_raises_type_error(invalid_value):
     with pytest.raises(TypeError):
         ticket_price(invalid_value)
+        #demo
